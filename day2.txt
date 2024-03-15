@@ -1,0 +1,489 @@
+
+language
+techonology
+framkwork
+classifin of lang ->
+-machne
+-mid leve/assembly
+-high level
+
+------------------
+bcuz of perceptive ->
+
+c is low lwvwl lang
+c is mid level lang
+
+------------------
+develop paradigm
+-proceural
+-object orineted
+-functional orineted
+-------------
+API ->
+-its like connector , medium 
+java applic - > classes -> os 
+            (java claases , its api)
+-
+java applicn   -> JDBC API -> Database
+
+-----------------
+
+java development platform ->
+-Java SE
+- ( no client ,noserver) ( stand alone applcin -> single machine pe work hote hai , run hote hai)
+  e.g console applicn
+       GUI applicn ,
+   - can cretae library (.jar) applic, netwk applicn
+  - khud use kr skte hai , multiple people nhi 
+
+
+
+-Java EE
+-J2EE/advanced Java/Enterprize java
+ - used for web applicn , web servicees , microservice
+, rest applcn
+- ecplise foundation
+
+
+-Java ME -> Java Card API -> to create smart card(debit card) aplicn
+-java micro edition
+-chote device keliue use hota hai ,
+like washing machine , setup box
+
+
+
+-Java FX
+- light weight GUI applicn banane keliye
+
+-----------------------
+-inn sabme , jyda classes J2EE main use hote hai
+-then java SE
+then ME
+then Java Card
+then FX
+
+-----------
+AWT->Swing->2D/3D->Java Fx
+---------------
+
+--------------------------------
+Java SE Platform :
+--------------------
+
+Java Runtime envirnoment :
+
+1.Java API (rt.jar ke ander java api hota hai)
+2.Java virtual machine (JVM)
+
+-------
+java main , library file ka extension , .jar rhta hai ... jar stands -> java archive
+-------
+
+---------------------------------
+software developmet kit ( SDK )=>
+
+-developmwnt tools
+-documentation
+-supporting libraries
+-runtime envirnoment
+
+---------------------------
+to devlopemtn :
+
+-java sdk ( jdk )=>JDK
+=>
+-java dev tools 
+-java API docs
+-JRE 
+(-rt.jar => (contains all java SE , core api ) =>libraries
+-runtime envirnment (JVM))
+
+
+---------------------------
+-JDK is diff for all os
+(content sam erhta hai ,S/W diff hota hai )
+-JRE bhi diff hota hai for diff OS.
+-------------------------
+
+JNI -> 
+
+c,c++ code -> native code
+-
+if native code include kna hai to , 
+then jni files use krna hai
+(ye includes folder main hote hai)
+
+----------
+bin wale main develop files hai
+inksa supporting ja rfiles , lib folder main hai
+---------
+
+-------------
+java 8 download kro ...
+-------------
+
+java 8 tak , java is open sorce techonologies
+------------------
+
+assignment:
+--------
+src.zip file : -> desktop pe save kro 
+------------
+java compiled code , kaha pe rkha hai >
+=>rt.jar file main
+=>all compiled code , yaha rhta hai 
+------------
+
+workspace => directory for multple projects
+--------------------
+
+java compiler => main method nhin dekhta
+so will compile file without main method
+
+---------------
+
+.class file=> class ko dekh ke bnti hai,
+not file , not main method
+---------------
+Type => enum , interface , class => inke keliye .class bnti hai
+-------------
+
+
+java hello.class
+=> internally,convert krega
+java hello.class.class
+
+
+so , dont write ,
+write
+java hello =>
+java hello.class
+
+----------------
+same file ko again compile kia too , .class ko ,overwrite krgega , shayad...
+
+------------------------
+------------------------
+
+java 8, 11, 17,21 => is LTS Version...
+--------------
+
+
+
+
+-----------------------------
+evening session :
+-----------------------------
+via it can see default ctor also..
+
+
+javap -=> bin folder main hai
+its disambler
+via it we can see contain of .class file
+-
+javap -c Program.class
+its byte code
+
+=> its object oriented assembily lang code
+develped in class
+
+
+
+=>its in .class file
+
+--------------
+
+jvm => .class file read krta hai..
+----------------
+so runtime main rt.jar lgta hai.
+-------------------
+
+jvm
+1.class loader subsystem
+2.runtime data areas
+3.execution engine
+--------
+class loade:
+bootsrap CL
+extension CL
+system/application CL
+user defined / custom CL
+---------------
+
+runtime data areas
+method area
+heap
+java stack
+pc register
+native method stack
+------------
+
+execution engine :
+-interpreter
+-jit compiler
+-garbage collector
+-----------
+
+artima + jvm => website , chapter no 5.
+read this
+-----------
+
+calling main method => is work of jvm
+not os
+--------
+
+javac -verbose program.java
+-----------------------
+backfround main compiler jo krta hai , wodeikhega
+--------
+java -verbose program.java
+-----------------
+
+java is multi threded language
+------
+
+System.in.read(); => to hold screen
+----------
+jcmd => to find procees id java appllicn / program ka
+---
+jstack pid => iss program keliye kitne thread run ho rhe hai
+=> jcmd se id lo and chk kro.
+--------
+------------------------------------
+thread_file.txt
+----------
+
+ycrash website pe chk kro
+----------------------------------
+---
+-when we execute our applicn
+-compile dosent chk , interfer here
+-jvm starts execution of main thread (ye main method ko call krta hai )
+-------
+
+does compiler chk syntax ?
+--------
+
+public static int main(-)
+{
+return 0;
+}
+// runtime error 
+jo java ne syntax dia hai , follow it...
+---------------
+
+we can overload main method in java..
+----
+
+-we can make one main method per class
+-jiska naam likha,
+wo entry bnega
+.
+------
+all java modifiers:
+
+javap java.lang.reflect.Modifier
+12 modiferis  r there...
+---------------
+
+in java => definatin/declarn
+
+in java global things nhi rhta
+(global means class ke baher)
+field 
+method local varible
+
+method argument
+method parameter
+
+---
+double click on applicn => splash window
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
